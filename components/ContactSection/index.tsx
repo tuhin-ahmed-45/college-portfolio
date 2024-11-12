@@ -1,4 +1,4 @@
-import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 export default function ContactSection() {
    return (
@@ -19,9 +19,9 @@ export default function ContactSection() {
                      </span>
                   </div>
                   <div className="flex items-center space-x-2">
-                     <FaPhone className="text-gray-500 font-semibold text-xl" />
+                     <FaPhoneAlt className="text-gray-500 font-semibold text-xl" />
                      <span className="text-gray-500 font-semibold">
-                        +123 456 7890
+                        +880 1xxxxxxxx
                      </span>
                   </div>
                   <div className="flex items-center space-x-3">

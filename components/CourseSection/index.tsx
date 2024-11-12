@@ -5,7 +5,7 @@ export default function CourseSection() {
    return (
       <section
          id="course"
-         className="flex flex-col items-center justify-center gap-6 min-h-screen"
+         className="flex flex-col items-center justify-center gap-6 min-h-screen relative z-10"
       >
          <h1 className="text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-200 to-purple-500 bg-opacity-50">
             Our Courses
