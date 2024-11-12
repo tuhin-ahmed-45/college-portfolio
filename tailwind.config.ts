@@ -9,7 +9,7 @@ const config: Config = {
    theme: {
       extend: {
          fontFamily: {
-            secondary: ["Sky", "sans-serif"],
+            poppins: ["var(--font-poppins)"],
          },
          animation: {
             scroll:
