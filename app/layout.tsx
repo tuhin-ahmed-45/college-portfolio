@@ -1,5 +1,4 @@
 import Footer from "@/components/Layout/Footer";
-import { Header } from "@/components/Layout/Header";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -10,8 +9,8 @@ const poppins = Poppins({
    variable: "--font-poppins",
 });
 export const metadata: Metadata = {
-   title: "Modern PPI Portfolio",
-   description: "Modern PPI Portfolio by Code Hub Team",
+   title: "Course Station",
+   description: "Course Station by Code Hub Team",
 };
 
 export default function RootLayout({
@@ -22,7 +21,6 @@ export default function RootLayout({
    return (
       <html lang="en">
          <body className={`${poppins.variable} font-poppins antialiased`}>
-            <Header />
             {children}
             <Footer />
          </body>
